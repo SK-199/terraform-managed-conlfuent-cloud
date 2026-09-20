@@ -1,0 +1,57 @@
+--------------------------------------------------------------------
+|                     DescribeNetworkInterfaces                    |
++------------------------+------------+----------------------------+
+|           ENI          |  Status    |          Subnet            |
++------------------------+------------+----------------------------+
+|  [1m[34meni-07e9fe42ea0ff2c71[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-04209349c44320cfa[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-028cbca3cdab03feb[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-0226c502ae634ee50[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-0857d93aa81739445[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-01c82f23a0290156e[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-0dbcf049bf66a93ef[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-0af903dfc50fade5c[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-0ab17ec1547adbdd9[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-0ee38a3ec8a72f43a[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-066ca33bd91cb4c67[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-088a92ca5d41fcc02[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-066d57314fc6b515e[0m |  [1m[34min-use[0m    |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-0d8e950ce51a6d0bf[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-07845fd0db9666775[0m |  [1m[34min-use[0m    |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-0297572c1e2a8db29[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-00f37aeed6b053959[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0bd783f7d10439ce4[0m  |
+|  [1m[34meni-00573697700498fe6[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-08f71422b16714cb7[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-031312c15b6f2fceb[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-0b1e662ea306cccdc[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-0a6b85e3c3c34cce7[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-03f9630423445da28[0m |  [1m[34min-use[0m    |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-008a9dcf42cd87f4d[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-08b18f8b262a68eda[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-04cee0e7a75280d71[0m |  [1m[34min-use[0m    |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-05cbda37ec20e120b[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-06348a4f8f054aef8[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-085b21bfdd839afdb[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-0e647fa56d9199423[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-09893d69bece566c1[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-03e755e572cccc3f7[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-0a43119b7960a2128[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-0cc37d2267ddb7e7e[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0964403a679010c0e[0m  |
+|  [1m[34meni-0a8a380a31ba02ed7[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-09a4ab62b1c44c1c6[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-0d6ca0745c7ed0d22[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-095ae5bd7e336b3f4[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-0ea4425ea06ee65bd[0m |  [1m[34min-use[0m    |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-0c6a1cfd260bea7ec[0m |  [1m[34min-use[0m    |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-03693cf44305ae1cb[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-083a39495af3a1c9d[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-074dfeab2335fc30c[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-081ce2808c9d6a889[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-08402b7e796e8740f[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-0f5714c0aa323c0e1[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-0d0d69cc4cbad4ffa[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-0d5c052453f2cf29c[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-046a990e4259158eb[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-04447b5e43d9b6a75[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
+|  [1m[34meni-04fae7ac9685a367b[0m |  [1m[34mavailable[0m |  [1m[34msubnet-0798b574452af2370[0m  |
++------------------------+------------+----------------------------+
