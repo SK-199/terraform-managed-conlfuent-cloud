@@ -46,3 +46,28 @@ variable "kafka_max_ecku" {
     error_message = "kafka_max_ecku must be at least 1."
   }
 }
+
+variable "aws_vpc_cidr" {
+  description = "CIDR block provided for the AWS VPC"
+  type        = string
+}
+
+variable "aws_availability_zone_ids" {
+  description = "AWS Availability Zone IDs provided for the private networking design"
+  type        = list(string)
+
+  validation {
+    condition     = length(var.aws_availability_zone_ids) == 3
+    error_message = "Exactly 3 Availability Zone IDs are required for this Phase 2 design."
+  }
+}
+
+variable "pni_eni_count_per_subnet" {
+  description = "Number of PNI ENIs to provision per subnet"
+  type        = number
+
+  validation {
+    condition     = var.pni_eni_count_per_subnet >= 1
+    error_message = "pni_eni_count_per_subnet must be at least 1."
+  }
+}
