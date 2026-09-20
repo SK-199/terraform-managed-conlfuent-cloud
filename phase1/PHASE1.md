@@ -584,6 +584,12 @@ Phase 1                        COMPLETE
 #Error
 <img width="634" height="576" alt="image" src="https://github.com/user-attachments/assets/7ca55e0c-6792-4dc7-a1b7-88363f3a178b" />
 
+
+<img width="1265" height="507" alt="image" src="https://github.com/user-attachments/assets/93e94541-23a8-475d-8067-8c4d45e7e2c4" />
+
+<img width="1157" height="535" alt="image" src="https://github.com/user-attachments/assets/69e15c75-7137-4dde-adf6-5f810858fe00" />
+
+
 dev-enterprise
 Cluster networking setup incomplete
 intentionally did not configure private networking / PNI in Phase 1.
