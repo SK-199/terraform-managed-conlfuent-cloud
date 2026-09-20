@@ -15,3 +15,6 @@ aws_availability_zone_ids = [
 ]
 
 pni_eni_count_per_subnet = 17
+confluent_aws_account_id = "784941337404"
+aws_account_id           = "343218202978"
+

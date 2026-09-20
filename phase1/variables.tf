@@ -71,3 +71,23 @@ variable "pni_eni_count_per_subnet" {
     error_message = "pni_eni_count_per_subnet must be at least 1."
   }
 }
+
+variable "confluent_aws_account_id" {
+  description = "Confluent AWS account ID used for PNI ENI attachment permissions"
+  type        = string
+
+  validation {
+    condition     = can(regex("^[0-9]{12}$", var.confluent_aws_account_id))
+    error_message = "confluent_aws_account_id must be a 12-digit AWS account ID."
+  }
+}
+
+variable "aws_account_id" {
+  description = "AWS account ID that owns the PNI ENIs"
+  type        = string
+
+  validation {
+    condition     = can(regex("^[0-9]{12}$", var.aws_account_id))
+    error_message = "aws_account_id must be a 12-digit AWS account ID."
+  }
+}
