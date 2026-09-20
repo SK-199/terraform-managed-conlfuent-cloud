@@ -600,3 +600,47 @@ Managing topics not available
 Your browser can't create, delete, or change settings for topics of this cluster. All topics in this cluster are protected by a private network and cannot be altered over the Internet.
 We will update in phase2
 
+
+#phase2
+<img width="1080" height="315" alt="image" src="https://github.com/user-attachments/assets/e6438431-f277-43a9-a804-bd9aa51e87da" />
+
+[ec2-user@ip-172-31-3-206 phase2]$ aws ec2 describe-vpcs   --region ap-south-1   --vpc-ids vpc-0c8aab6a30ebc6d84   --query 'Vpcs[].{VpcId:VpcId,Cidr:CidrBlock,State:State}'   --output table
+--------------------------------------------------------
+|                     DescribeVpcs                     |
++---------------+------------+-------------------------+
+|     Cidr      |   State    |          VpcId          |
++---------------+------------+-------------------------+
+|  10.50.0.0/24 |  available |  vpc-0c8aab6a30ebc6d84  |
++---------------+------------+-------------------------+
+[ec2-user@ip-172-31-3-206 phase2]$
+
+[ec2-user@ip-172-31-3-206 phase2]$ aws ec2 describe-subnets \
+  --region ap-south-1 \
+  --filters Name=vpc-id,Values=vpc-0c8aab6a30ebc6d84 \
+  --query 'Subnets[].{SubnetId:SubnetId,AZ:AvailabilityZone,CIDR:CidrBlock,State:State}' \
+  --output table
+----------------------------------------------------------------------------
+|                              DescribeSubnets                             |
++-------------+-----------------+------------+-----------------------------+
+|     AZ      |      CIDR       |   State    |          SubnetId           |
++-------------+-----------------+------------+-----------------------------+
+|  ap-south-1c|  10.50.0.128/26 |  available |  subnet-0798b574452af2370   |
+|  ap-south-1b|  10.50.0.64/26  |  available |  subnet-0bd783f7d10439ce4   |
+|  ap-south-1a|  10.50.0.0/26   |  available |  subnet-0964403a679010c0e   |
++-------------+-----------------+------------+-----------------------------+
+[ec2-user@ip-172-31-3-206 phase2]$
+
+AWS
+└── VPC 10.50.0.0/24
+    ├── Subnet AZ-a  ✅
+    ├── Subnet AZ-b  ✅
+    └── Subnet AZ-c  ✅
+             │
+             │
+             X  ← NOT CONNECTED YET
+             │
+             ▼
+      Confluent Cloud
+      dev-enterprise
+
+
