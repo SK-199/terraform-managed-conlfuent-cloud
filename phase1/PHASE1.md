@@ -581,3 +581,16 @@ PNI                             NOT USED
 Phase 1                        COMPLETE
 ```
 
+#Error
+<img width="634" height="576" alt="image" src="https://github.com/user-attachments/assets/7ca55e0c-6792-4dc7-a1b7-88363f3a178b" />
+
+dev-enterprise
+Cluster networking setup incomplete
+intentionally did not configure private networking / PNI in Phase 1.
+
+Unable to create topic
+Topics
+Managing topics not available
+Your browser can't create, delete, or change settings for topics of this cluster. All topics in this cluster are protected by a private network and cannot be altered over the Internet.
+We will update in phase2
+
